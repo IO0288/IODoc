@@ -4,17 +4,17 @@
   "name": "IODocs: IO0288's Docs",
   "icons": [
     {
-      "src": "/img/favicon.ico",
+      "src": "/IODocs/img/favicon.ico",
       "type": "image/ico",
       "sizes": "32x27"
     },
     {
-      "src": "/img/logo.svg",
+      "src": "/IODocs/img/logo.svg",
       "type": "image/svg+xml",
       "sizes": "200x200"
     },
     {
-      "src": "/img/docusaurus.png",
+      "src": "/IODocs/img/docusaurus.png",
       "type": "image/png",
       "sizes": "200x200"
     }
