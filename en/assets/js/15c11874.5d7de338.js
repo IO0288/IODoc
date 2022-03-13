@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkio_docs=self.webpackChunkio_docs||[]).push([[467],{4282:function(s){s.exports=JSON.parse('{"allTagsPath":"/IODocs/en/blog/tags","slug":"/IODocs/en/blog/tags/hello","name":"hello","count":2,"permalink":"/IODocs/en/blog/tags/hello"}')}}]);
