@@ -2,6 +2,12 @@
   "$schema": "https://json.schemastore.org/web-manifest-combined.json",
   "short_name": "IODocs",
   "name": "IODocs: IO0288's Docs",
+  "related_applications": [
+    {
+      "platform": "webapp",
+      "url": "https://io0288.github.io/IODocs/manifest.json"
+    }
+  ],
   "icons": [
     {
       "src": "/IODocs/img/favicon.ico",
