@@ -8,8 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'IODocs',// 网站名
   tagline: 'IO0288\'s Docs',// 网站描述
-  url: 'https://docs.io0288.cn/',
-  baseUrl: '/',
+  url: 'https://io0288.github.io/',
+  baseUrl: '/IODocs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
