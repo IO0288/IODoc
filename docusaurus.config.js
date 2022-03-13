@@ -38,16 +38,11 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-      }),
-    ],
-    [
-      '@docusaurus/preset-classic',
-      {
         sitemap: {
           changefreq: 'weekly',
           priority: 0.5,
         },
-      },
+      }),
     ],
   ],
 
@@ -99,6 +94,11 @@ const config = {
           to: '/blog',
           label: '博客',
           position: 'left'
+        },
+        // 语言选择
+        {
+          type: 'localeDropdown',
+          position: 'right',
         },
         {
           href: 'https://github.com/IO0288/IODocs',
@@ -175,15 +175,15 @@ const config = {
     },
   },
   // 插件
-  plugins: [
-    // 'docusaurus-plugin-awesome',
-    // ['docusuarus-plugin-confetti', {fancy: false}],
-    () => ({
-      postBuild() {
-        console.log('Build finished');
-      },
-    }),
-  ],
+  // plugins: [
+  //   // 'docusaurus-plugin-awesome',
+  //   // ['docusuarus-plugin-confetti', {fancy: false}],
+  //   // () => ({
+  //   //   postBuild() {
+  //   //     console.log('Build finished');
+  //   //   },
+  //   // }),
+  // ],
   // 自定义字段
   customFields: {
     // image: '',
