@@ -209,12 +209,13 @@ const config = {
       // PWA支持
       '@docusaurus/plugin-pwa',
       {
-        debug: true,
+        // debug: true,
         offlineModeActivationStrategies: [
-          'appInstalled',
-          'standalone',
-          'queryString',
-          'mobile',
+          // 'appInstalled',
+          // 'standalone',
+          // 'queryString',
+          // 'mobile',
+          'always',
         ],
         pwaHead: [
           {
