@@ -66,7 +66,19 @@ const config = {
   // baseUrlIssueBanner: true,
 
   // 主题
-  // themes: ['@docusaurus/theme-classic'],
+  themes: [
+    '@docusaurus/theme-classic',
+    require.resolve("@easyops-cn/docusaurus-search-local"),
+    {
+      // ... Your options.
+      // `hashed` is recommended as long-term-cache of index file is possible.
+      hashed: true,
+      // For Docs using Chinese, The `language` is recommended to set to:
+      // ```
+      // language: ["zh", "en"],
+      // ```
+    },
+  ],
   // 主题配置
   themeConfig: ({
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -159,10 +171,10 @@ const config = {
   }),
   // 翻译
   i18n: {
-    defaultLocale: 'cn',
-    locales: ['cn', 'en'],
+    defaultLocale: 'zh',
+    locales: ['zh', 'en'],
     localeConfigs: {
-      cn: {
+      zh: {
         label: '中文(简体)',
         direction: 'ltr',
         htmlLang: 'zh-Hans-CN',// 中华人民共和国大陆简体中文
