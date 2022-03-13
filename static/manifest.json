@@ -1,0 +1,33 @@
+{
+  "short_name": "IODocs",
+  "name": "IODocs: IO0288's Docs",
+  "icons": [
+    {
+      "src": "/img/favicon.ico",
+      "type": "image/ico",
+      "sizes": "32x27"
+    },
+    {
+      "src": "/img/logo.svg",
+      "type": "image/svg+xml",
+      "sizes": "200x200"
+    },
+    {
+      "src": "/img/docusaurus.png",
+      "type": "image/png",
+      "sizes": "200x200"
+    }
+  ],
+  "start_url": "/IODocs/",
+  "background_color": "#3367D6",
+  "display_override": [
+    "window-control-overlay",
+    "minimal-ui"
+  ],
+  "display": "standalone",
+  "scope": "/IODocs",
+  "theme_color": "#3367D6",
+  "shortcuts": [],
+  "description": "IODcos",
+  "screenshots": []
+}
