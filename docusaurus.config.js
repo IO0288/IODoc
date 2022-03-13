@@ -67,7 +67,7 @@ const config = {
 
   // 主题
   themes: [
-    '@docusaurus/theme-classic',
+    // '@docusaurus/theme-classic',
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
       {
