@@ -1,5 +1,7 @@
 name: Deploy to GitHub Pages
-// 推送后通过github actions工作流自动构建github page
+# 推送后通过github actions工作流自动构建github page
+
+
 
 on:
   push:
@@ -10,7 +12,9 @@ on:
 jobs:
   deploy:
     name: Deploy to GitHub Pages
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
+    # 使用自托管actions-runner
+    #runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v3
