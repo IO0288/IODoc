@@ -26,6 +26,7 @@
     }
   ],
   "start_url": "/IODocs/index.html",
+  "id": "/IODocs",
   "background_color": "#3367D6",
   "display_override": [
     "window-control-overlay",
