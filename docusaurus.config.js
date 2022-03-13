@@ -163,7 +163,7 @@ const config = {
     locales: ['cn', 'en'],
     localeConfigs: {
       cn: {
-        label: 'Chinese',
+        label: '中文(简体)',
         direction: 'ltr',
         htmlLang: 'zh-Hans-CN',// 中华人民共和国大陆简体中文
       },
