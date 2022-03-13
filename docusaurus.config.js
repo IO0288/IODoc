@@ -71,13 +71,27 @@ const config = {
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
       {
-        // ... Your options.
-        // `hashed` is recommended as long-term-cache of index file is possible.
         hashed: true,
-        // For Docs using Chinese, The `language` is recommended to set to:
-        // ```
-        // language: ["zh", "en"],
-        // ```
+        language: ['en', 'zh'],
+        indexDocs: true,
+        indexBlog: true,
+        indexPages: true,
+        docsRouteBasePath: '/docs',
+        blogRouteBasePath: '/blog',
+        docsDir: 'docs',
+        blogDir: 'blog',
+        highlightSearchTermsOnTargetPage: true,// 结果高亮
+        // ignoreFiles: /.*/,// 忽略文件(正则表达式)
+        translations: {
+          "search_placeholder": "搜索",
+          "see_all_results": "查看所有结果",
+          "no_results": "没有结果。",
+          "search_results_for": "搜索结果 \"{{ keyword }}\"",
+          "search_the_documentation": "搜索文档",
+          "count_documents_found": "{{ count }} 个结果",
+          "count_documents_found_plural": "{{ count }} 个文档找到",
+          "no_documents_were_found": "没有找到文档"
+        }
       },
     ]
   ],
