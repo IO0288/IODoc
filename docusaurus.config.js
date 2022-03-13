@@ -17,7 +17,7 @@ const config = {
   projectName: 'IODocs', // Usually your repo name.
   deploymentBranch: 'gh-pages',// 部署的分支
   trailingSlash: 'false',
-
+  
   // 预设
   presets: [
     [
@@ -33,7 +33,7 @@ const config = {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-              'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -45,26 +45,26 @@ const config = {
       }),
     ],
   ],
-
+  
   // 标题分隔符
   // titleDelimiter: '🦖', // 默认为 `|`
-
+  
   // 原样构建输出(路径)
   staticDirectories: ['static'],
-
+  
   // 引入css样式
   // stylesheets: [
   //   'https://docusaurus.io/style.css',
   // ],
-
+  
   // 引入js
   // scripts: [
   //   'https://docusaurus.io/script.js',
   // ],
-
+  
   // 启用错误提示
   // baseUrlIssueBanner: true,
-
+  
   // 主题
   themes: [
     // '@docusaurus/theme-classic',
@@ -204,15 +204,69 @@ const config = {
     },
   },
   // 插件
-  // plugins: [
-  //   // 'docusaurus-plugin-awesome',
-  //   // ['docusuarus-plugin-confetti', {fancy: false}],
-  //   // () => ({
-  //   //   postBuild() {
-  //   //     console.log('Build finished');
-  //   //   },
-  //   // }),
-  // ],
+  plugins: [
+    [
+      // PWA支持
+      '@docusaurus/plugin-pwa',
+      {
+        debug: true,
+        offlineModeActivationStrategies: [
+          'appInstalled',
+          'standalone',
+          'queryString',
+          'mobile',
+        ],
+        pwaHead: [
+          {
+            tagName: 'link',
+            rel: 'icon',
+            href: '/img/docusaurus.png',
+          },
+          {
+            tagName: 'link',
+            rel: 'manifest',
+            href: '/manifest.json',
+          },
+          {
+            tagName: 'meta',
+            name: 'theme-color',
+            content: 'rgb(37, 194, 160)',
+          },
+          {
+            tagName: 'meta',
+            name: 'apple-mobile-web-app-capable',
+            content: 'yes',
+          },
+          {
+            tagName: 'meta',
+            name: 'apple-mobile-web-app-status-bar-style',
+            content: '#000',
+          },
+          {
+            tagName: 'link',
+            rel: 'apple-touch-icon',
+            href: '/img/docusaurus.png',
+          },
+          {
+            tagName: 'link',
+            rel: 'mask-icon',
+            href: '/img/docusaurus.svg',
+            color: 'rgb(37, 194, 160)',
+          },
+          {
+            tagName: 'meta',
+            name: 'msapplication-TileImage',
+            content: '/img/docusaurus.png',
+          },
+          {
+            tagName: 'meta',
+            name: 'msapplication-TileColor',
+            content: '#000',
+          },
+        ],
+      },
+    ],
+  ],
   // 自定义字段
   customFields: {
     // image: '',
