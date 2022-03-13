@@ -1,4 +1,5 @@
 {
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
   "short_name": "IODocs",
   "name": "IODocs: IO0288's Docs",
   "icons": [
