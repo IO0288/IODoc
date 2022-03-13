@@ -47,7 +47,7 @@ const config = {
   ],
   
   // 标题分隔符
-  // titleDelimiter: '🦖', // 默认为 `|`
+  titleDelimiter: '🦖', // 默认为 `|`
   
   // 原样构建输出(路径)
   staticDirectories: ['static'],
@@ -159,8 +159,8 @@ const config = {
             //   href: 'https://discordapp.com/invite/docusaurus',
             // },
             {
-              label: 'Twitter推特',
-              href: 'https://twitter.com/docusaurus',
+              label: 'Mastodon',
+              href: 'https://hello.io0288.cn/@IO0288',
             },
           ],
         },
