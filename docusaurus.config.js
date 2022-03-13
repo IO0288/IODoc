@@ -40,6 +40,15 @@ const config = {
         },
       }),
     ],
+    [
+      '@docusaurus/preset-classic',
+      {
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.5,
+        },
+      },
+    ],
   ],
 
   // 标题分隔符
@@ -167,14 +176,19 @@ const config = {
   },
   // 插件
   plugins: [
-    'docusaurus-plugin-awesome',
-    ['docusuarus-plugin-confetti', {fancy: false}],
+    // 'docusaurus-plugin-awesome',
+    // ['docusuarus-plugin-confetti', {fancy: false}],
     () => ({
       postBuild() {
         console.log('Build finished');
       },
     }),
   ],
+  // 自定义字段
+  customFields: {
+    // image: '',
+    // keywords: [],
+  },
 };
 
 module.exports = config;
