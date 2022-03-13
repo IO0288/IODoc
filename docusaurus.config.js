@@ -67,17 +67,19 @@ const config = {
 
   // 主题
   themes: [
-    // '@docusaurus/theme-classic',
-    require.resolve("@easyops-cn/docusaurus-search-local"),
-    {
-      // ... Your options.
-      // `hashed` is recommended as long-term-cache of index file is possible.
-      hashed: true,
-      // For Docs using Chinese, The `language` is recommended to set to:
-      // ```
-      // language: ["zh", "en"],
-      // ```
-    },
+    '@docusaurus/theme-classic',
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        // ... Your options.
+        // `hashed` is recommended as long-term-cache of index file is possible.
+        hashed: true,
+        // For Docs using Chinese, The `language` is recommended to set to:
+        // ```
+        // language: ["zh", "en"],
+        // ```
+      },
+    ]
   ],
   // 主题配置
   themeConfig: ({
