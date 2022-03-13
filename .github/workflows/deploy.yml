@@ -1,5 +1,5 @@
 name: Deploy to GitHub Pages
-// 推送后通过github actions工作流自动构建github page
+# 推送后通过github actions工作流自动构建github page
 
 on:
   push:
