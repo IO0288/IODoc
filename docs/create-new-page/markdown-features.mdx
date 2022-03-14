@@ -2,13 +2,13 @@
 sidebar_position: 4
 ---
 
-# Markdown Features
+# Markdown特性
 
-Docusaurus supports **[Markdown](https://daringfireball.net/projects/markdown/syntax)** and a few **additional features**.
+Docusaurus支持**[Markdown](https://daringfireball.net/projects/markdown/syntax)**和一些**额外的功能**。
 
-## Front Matter
+## 前页
 
-Markdown documents have metadata at the top called [Front Matter](https://jekyllrb.com/docs/front-matter/):
+Markdown文档的元数据位于顶部，名为[Front Matter](https://jekyllrb.com/docs/front-matter/):
 
 ```text title="my-doc.md"
 // highlight-start
@@ -25,9 +25,9 @@ slug: /my-custom-url
 Markdown text with [links](./hello.md)
 ```
 
-## Links
+## 链接
 
-Regular Markdown links are supported, using url paths or relative file paths.
+支持使用url路径或相对文件路径的常规Markdown链接。
 
 ```md
 Let's see how to [Create a page](/create-a-page).
@@ -39,11 +39,10 @@ Let's see how to [Create a page](./create-a-page.md).
 
 **Result:** Let's see how to [Create a page](./create-a-page.md).
 
-## Images
+## 的图片
 
-Regular Markdown images are supported.
-
-Add an image at `static/img/docusaurus.png` and display it in Markdown:
+支持常规Markdown图像。
+添加一个图像在 `static/img/docusaurus.png` ，并显示它在Markdown:
 
 ```md
 ![Docusaurus logo](/img/docusaurus.png)
@@ -51,11 +50,12 @@ Add an image at `static/img/docusaurus.png` and display it in Markdown:
 
 ![Docusaurus logo](/img/docusaurus.png)
 
-## Code Blocks
+## 代码块
 
-Markdown code blocks are supported with Syntax highlighting.
+语法高亮显示支持Markdown代码块。
 
-    ```jsx title="src/components/HelloDocusaurus.js"
+
+    ```jsx title="src/components/HelloDocusaurus.js“
     function HelloDocusaurus() {
         return (
             <h1>Hello, Docusaurus!</h1>
@@ -69,9 +69,9 @@ function HelloDocusaurus() {
 }
 ```
 
-## Admonitions
+## 警告
 
-Docusaurus has a special syntax to create admonitions and callouts:
+Docusaurus有一个特殊的语法来创建警告和标注:
 
     :::tip My tip
 
@@ -97,9 +97,9 @@ This action is dangerous
 
 :::
 
-## MDX and React Components
+## MDX和React组件
 
-[MDX](https://mdxjs.com/) can make your documentation more **interactive** and allows using any **React components inside Markdown**:
+[MDX](https://mdxjs.com/)可以使您的文档更**交互**，并允许使用任何**React组件内的Markdown**:
 
 ```jsx
 export const Highlight = ({children, color}) => (
