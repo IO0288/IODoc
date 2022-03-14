@@ -1,6 +1,6 @@
 {
   "label": "创建新的页面",
-  "sidebar_position": 2,
+  "position": 2,
   "collapsible": true,
   "collapsed": false,
   "className": "red",
