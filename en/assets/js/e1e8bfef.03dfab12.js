@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkio_docs=self.webpackChunkio_docs||[]).push([[6640],{9099:function(e){e.exports=JSON.parse('{"name":"\u6807\u7b7e","permalink":"/IODocs/en/docs/tags/\u6807\u7b7e","docs":[{"id":"create-new-page/intro","title":"\u6307\u5357","description":"","permalink":"/IODocs/en/docs/create-new-page/"}],"allTagsPath":"/IODocs/en/docs/tags"}')}}]);
