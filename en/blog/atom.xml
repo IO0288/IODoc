@@ -22,6 +22,10 @@
             <name>Yangshun Tay</name>
             <uri>https://github.com/yangshun</uri>
         </author>
+        <author>
+            <name>IO0288</name>
+            <uri>https://blog.io0288.cn</uri>
+        </author>
         <category label="facebook" term="facebook"/>
         <category label="hello" term="hello"/>
         <category label="docusaurus" term="docusaurus"/>
