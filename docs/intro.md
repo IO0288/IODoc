@@ -1,6 +1,10 @@
 ---
-id: guide
+id: intro
 sidebar_position: 1
+title: 指南
+tags:
+- 标签
+- 开始使用
 ---
 
 # 指南
