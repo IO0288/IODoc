@@ -47,7 +47,7 @@ const config = {
   ],
   
   // 标题分隔符
-  titleDelimiter: '🦖', // 默认为 `|`
+  titleDelimiter: '🤪', // 默认为 `|`🦖
   
   // 原样构建输出(路径)
   staticDirectories: ['static'],
@@ -173,7 +173,7 @@ const config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/io0288/IODocs',
             },
           ],
         },
@@ -188,19 +188,19 @@ const config = {
   // 翻译
   i18n: {
     defaultLocale: 'zh',
-    locales: ['zh', 'en'],
-    // locales: ['zh'],
+    // locales: ['zh', 'en'],
+    locales: ['zh'],
     localeConfigs: {
       zh: {
         label: '中文(简体)',
         direction: 'ltr',
         htmlLang: 'zh-Hans-CN',// 中华人民共和国大陆简体中文
       },
-      en: {
-        label: 'English',
-        direction: 'ltr',
-        htmlLang: 'en-US',
-      },
+      // en: {
+      //   label: 'English',
+      //   direction: 'ltr',
+      //   htmlLang: 'en-US',
+      // },
     },
   },
   // 插件
