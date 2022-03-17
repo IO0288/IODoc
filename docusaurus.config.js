@@ -72,7 +72,8 @@ const config = {
       require.resolve("@easyops-cn/docusaurus-search-local"),
       {
         hashed: true,
-        language: ['en', 'zh'],
+        // language: ['en', 'zh'],
+        language: ['zh'],
         indexDocs: true,
         indexBlog: true,
         indexPages: true,
