@@ -1,8 +1,8 @@
 ---
 id: NodeJS
-title: NodeJS And More
+title: Node.JS
 sidebar_position: 1
-sidebar_label: NodeJSNodeJS And More
+sidebar_label: NodeJS.JS
 sidebar_class_name: green
 tags: [Note, Node.JS, Markdown]
 ---
