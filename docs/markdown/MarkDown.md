@@ -202,7 +202,7 @@ $(document).ready(function () {
 链接使用方法如下：
 
 ```markdown
-[链接名称](链接地址)
+[链接名称](https://www.runoob.com)
 
 或者
 
@@ -215,9 +215,9 @@ $(document).ready(function () {
 
 # 图片
 ```markdown
-![alt 属性文本](图片地址)
+![alt 属性文本](http://static.runoob.com/images/runoob-logo.png)
 
-![alt 属性文本](图片地址 "可选标题")
+![alt 属性文本](http://static.runoob.com/images/runoob-logo.png "可选标题")
 ```
 
 - 开头一个感叹号 !
@@ -266,7 +266,7 @@ Markdown 制作表格使用 | 来分隔不同的单元格，使用 - 来分隔�
 实例如下：
 
 | 左对齐 | 右对齐 | 居中对齐 |
-| :-----| ----: | :----: |
+| :--- | ---: | :--: |
 | 单元格 | 单元格 | 单元格 |
 | 单元格 | 单元格 | 单元格 |
 ```
