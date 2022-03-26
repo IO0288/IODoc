@@ -13,7 +13,8 @@ tags: [Note, Markdown, LaTeX]
 > > 本文参在并在https://www.jianshu.com/p/e74eb43960a1的原文上进行优化与转载
 > >
 > > 推荐工具https://www.codecogs.com/latex/eqneditor.php?lang=zh-cn
-> docusaurus貌视默认不支持LaTeX的样子，推荐见 [博客](https://blog.iabu.xyz/2021/03/07/markdown-katex) Or [图片](https://pan.iabu.xyz/s/7eFp)
+> 
+> docusaurus貌视默认不支持LaTeX的样子，推荐见 [博客](https://blog.iabu.xyz/2021/03/07/markdown-katex) Or [网盘](https://pan.iabu.xyz/s/7eFp)
 
 ### 行内与独行
 
