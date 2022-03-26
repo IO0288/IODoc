@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkio_docs=self.webpackChunkio_docs||[]).push([[6217],{4351:function(s){s.exports=JSON.parse('{"name":"LaTeX","permalink":"/IODocs/docs/tags/la-te-x","docs":[{"id":"markdown/LaTeX","title":"LaTeX","description":"[toc]","permalink":"/IODocs/docs/markdown/LaTeX"}],"allTagsPath":"/IODocs/docs/tags"}')}}]);
