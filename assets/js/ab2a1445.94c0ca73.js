@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkio_docs=self.webpackChunkio_docs||[]).push([[1923],{3546:function(s){s.exports=JSON.parse('{"name":"Node.JS","permalink":"/IODocs/docs/tags/node-js","docs":[{"id":"node-js/NodeJS","title":"NodeJS","description":"\u5c0f\u6807\u9898","permalink":"/IODocs/docs/node-js/NodeJS"}],"allTagsPath":"/IODocs/docs/tags"}')}}]);
