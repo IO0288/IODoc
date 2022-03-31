@@ -8,9 +8,9 @@ tags: [Note, Q&A, Windows]
 
 # Windows
 
-# 端口
+## 端口
 
-## 端口被占用/不可用
+### 端口被占用/不可用
 
 端口被占用（不可用）但是 `netstat -aon|findstr “端口”` 没有任何输出？
 
@@ -23,10 +23,9 @@ tags: [Note, Q&A, Windows]
 > 
 > ['罪魁祸首'Hyper-V](https://bbs.csdn.net/topics/391900623?list=lz)
 
-## 目录~~大标题~~
 
 # Linux
 
-# 还没有呢
+## 还没有呢
 
 
