@@ -19,7 +19,7 @@ tags: [Note, Q&A, Windows]
 解决办法：
 `netsh int ipv4 show dynamicport tcp` 查看端口范围，以及是否被排除
 
-> 可能是被Hyper-V保留了，试下netsh interface ipv4 show excludedportrange protocol=tcp，如果被保留了，就在打开或关闭功能里把Hyper-V去掉
+> 可能是被Hyper-V保留了，试下 `netsh interface ipv4 show excludedportrange protocol=tcp` ，如果被保留了，就在打开或关闭功能里把Hyper-V去掉
 > 
 > ['罪魁祸首'Hyper-V](https://bbs.csdn.net/topics/391900623?list=lz)
 
