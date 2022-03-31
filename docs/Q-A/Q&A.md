@@ -6,11 +6,11 @@ sidebar_label: Q&A
 tags: [Note, Q&A]
 ---
 
-# [Windows](https://io0288.github.io/IODocs/docs/Q-A/Q&A-Windows)
+## [Windows](https://io0288.github.io/IODocs/docs/Q-A/Q&A-Windows)
 
 
-# Linux
+## Linux
 
-## 还没有呢
+### 还没有呢
 
 
