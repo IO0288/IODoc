@@ -24,8 +24,3 @@ tags: [Note, Q&A, Windows]
 > ['罪魁祸首'Hyper-V](https://bbs.csdn.net/topics/391900623?list=lz)
 
 
-# Linux
-
-## 还没有呢
-
-
