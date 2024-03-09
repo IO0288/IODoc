@@ -27,13 +27,13 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/IO0288/IODocs',
+          editUrl: 'https://github.com/IO0288/IODocs/tree/master',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/IO0288/IODocs',
+            'https://github.com/IO0288/IODocs/tree/masters',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
