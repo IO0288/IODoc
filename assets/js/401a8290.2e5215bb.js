@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkio_docs=self.webpackChunkio_docs||[]).push([[6312],{8815:e=>{e.exports=JSON.parse('{"label":"blender","permalink":"/IODocs/docs/tags/blender","allTagsPath":"/IODocs/docs/tags","count":1,"items":[{"id":"3Notes/blender","title":"Blender\u64cd\u4f5c","description":"s + MM \u79fb\u52a8\u89c6\u56fe","permalink":"/IODocs/docs/3Notes/blender"}]}')}}]);
