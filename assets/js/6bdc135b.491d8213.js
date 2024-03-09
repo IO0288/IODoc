@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkio_docs=self.webpackChunkio_docs||[]).push([[7689],{9664:o=>{o.exports=JSON.parse('{"label":"facebook","permalink":"/IODocs/blog/tags/facebook","allTagsPath":"/IODocs/blog/tags","count":1}')}}]);
