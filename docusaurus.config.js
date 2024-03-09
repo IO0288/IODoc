@@ -27,13 +27,13 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/IO0288/IODocs/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/IO0288/IODocs',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/IO0288/IODocs/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/IO0288/IODocs',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -63,7 +63,7 @@ const config = {
   // ],
   
   // 启用错误提示
-  // baseUrlIssueBanner: true,
+  baseUrlIssueBanner: true,
   
   // 主题
   themes: [
@@ -160,7 +160,7 @@ const config = {
             //   href: 'https://discordapp.com/invite/docusaurus',
             // },
             {
-              label: 'Mastodon',
+              label: 'Mastodon/Misskey',
               href: 'https://hello.io0288.cn/@IO0288',
             },
           ],
@@ -170,7 +170,8 @@ const config = {
           items: [
             {
               label: '博客',
-              to: '/blog',
+              // to: '/blog',
+              href: 'https://blog.io0288.cn',
             },
             {
               label: 'GitHub',
